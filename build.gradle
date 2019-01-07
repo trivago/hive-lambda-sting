@@ -1,0 +1,24 @@
+plugins {
+  id "com.github.spotbugs" version "1.6.5"
+}
+apply plugin: 'java'
+
+project.group = 'com.trivago.dateengineering'
+project.version = '0.1.0'
+
+repositories{
+		mavenCentral();
+		maven { url 'http://conjars.org/repo/' }
+}
+
+
+dependencies {
+
+	compile group: 'org.apache.hive', name: 'hive-exec', version: '2.1.1', classifier: 'core'
+	compile group: 'com.github.spotbugs', name:'spotbugs', version: '3.1.10'
+	
+	testRuntime group: 'org.apache.hive', name: 'hive-metastore', version: '2.1.1'
+	testRuntime group: 'org.apache.hadoop', name: 'hadoop-common', version: '2.7.1'
+    compile group: 'junit', name: 'junit', version: '4.12'
+    
+}
