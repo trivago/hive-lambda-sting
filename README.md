@@ -2,12 +2,12 @@
 
 Powerful library for handling complex-datatypes in Hive utilizing macros
 
-#Installation
+# Installation
 
 Clone this repo and build it using gradle, feel free to adjust the hive version to match exactly the one you want it to.
 Or download a release from the release version.
  
-#Provided Functions
+# Provided Functions
 
 ## Reduce Collection
 
