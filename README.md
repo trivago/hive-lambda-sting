@@ -1,5 +1,9 @@
 # Purpose
 
+> [!CAUTION]
+> This repository has been archived as of October 2025.  
+> If you wish to update or extend this project, please create a fork.
+
 Powerful library for handling complex-datatypes in Hive utilizing macros.
 
 # Installation
